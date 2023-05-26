@@ -8827,3 +8827,20 @@ function et_divi_oembed_dataparse_remove_yt_frameborder( $html, $data, $url ) {
 	return $html;
 }
 add_filter( 'oembed_dataparse', 'et_divi_oembed_dataparse_remove_yt_frameborder', 10, 3 );
+
+
+
+function create_gallery_post_type() {
+    register_post_type( 'gallery',
+        array(
+            'labels' => array(
+                'name' => __( 'Gallery' ),
+                'singular_name' => __( 'Gallery' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'supports' => array( 'title', 'thumbnail' )
+        )
+    );
+}
+add_action( 'init', 'create_gallery_post_type' );

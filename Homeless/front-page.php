@@ -187,58 +187,55 @@ get_header();
 </div>
 <!-- projects -->
 
-
-
 <!-- posts -->
 <div class="our-posts">
     <div class="heading">
-        <h1>Our Lates News</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, veritatis?</p>
+        <h1>Our Latest News</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+            veritatis?</p>
     </div>
-    <div class="content">
-        <div class="post-grid">
+    <div class="my-content">
+        <div class="posts">
             <?php
             $args = array(
-              'post_type' => 'post',
-              'posts_per_page' => 3
+            'post_type' => 'post',
+            'posts_per_page' => 3
             );
             $query = new WP_Query($args);
-          
+
             if ($query->have_posts()) {
-              while ($query->have_posts()) {
-                $query->the_post();
-                ?>
-                <div class="post-item">
-                  <?php if (has_post_thumbnail()) { ?>
-                    <div class="post-thumbnail">
-                      <a href="<?php the_permalink(); ?>">
+            while ($query->have_posts()) {
+            $query->the_post();
+            ?>
+            <div class="post-item">
+                <?php if (has_post_thumbnail()) { ?>
+                <div class="post-thumbnail">
+                    <a href="<?php the_permalink(); ?>">
                         <?php the_post_thumbnail('thumbnail'); ?>
-                      </a>
-                    </div>
-                  <?php } ?>
-                  <div class="post-content">
-                    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                    <p class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 30); ?></p>
-                    <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
-                  </div>
+                    </a>
                 </div>
-                <?php
-              }
-            } else {
-              echo '<p>No posts found.</p>';
+                <?php } ?>
+                <div class="post-content">
+                    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php
+                            the_title(); ?></a></h3>
+                    <p class="post-excerpt"><?php echo
+                        wp_trim_words(get_the_excerpt(), 30); ?></p>
+                    <a href="<?php the_permalink(); ?>" class="btn2">Read More</a>
+                </div>
+            </div>
+            <?php
             }
-          
+            } else {
+            echo '<p>No posts found.</p>';
+            }
+
             wp_reset_postdata();
             ?>
-          </div>
-          
+        </div>
+
     </div>
 </div>
 <!-- posts -->
-
-
-
-
 
 <!-- progress -->
 <div class="progress-data">
@@ -264,6 +261,49 @@ get_header();
 </div>
 <!-- progress -->
 
+<!-- gallery -->
+<div class="my-gallery">
+    <div class="heading">
+        <h1>Our Image Gallery</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+            quis?</p>
+    </div>
+    <div class="gallery-data">
+        <div class="gallery">
+            <?php
+            $args = array(
+              'post_type' => 'gallery',
+              'posts_per_page' => -1 // Retrieve all gallery posts
+            );
+            $gallery_query = new WP_Query($args);
+          
+            if ($gallery_query->have_posts()) :
+              while ($gallery_query->have_posts()) : $gallery_query->the_post();
+                $image_id = get_post_thumbnail_id();
+                $image_url = wp_get_attachment_image_src($image_id, 'large')[0];
+                $image_title = get_the_title(); // Retrieve the image title
+                ?>
+          
+                <div class="gallery-item">
+                  <img src="<?php echo $image_url; ?>" alt="<?php echo $image_title; ?>">
+                  <div class="gallery-item-title"><?php echo $image_title; ?></div>
+                </div>
+          
+                <?php
+              endwhile;
+              wp_reset_postdata();
+            else :
+              echo '<p>No gallery images found.</p>';
+            endif;
+            ?>
+          </div>
+          
+          
+
+    </div>
+</div>
+<!-- gallery -->
+
 <script>
    $(document).ready(function() {
     $('.slider').slick({
@@ -272,6 +312,30 @@ get_header();
     autoplay: true,
     autoplaySpeed: 2000,
   });
+  $('.post-slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      dots: false,
+      arrows: false,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
 });
 
 </script>
