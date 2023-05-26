@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+:root{
+    --light_black:rgba(0, 0, 0, 0.59);
+    --color_yellow:#fbaf16;
+    --heading_font: 'Merriweather', serif;;
+}
+
+.btn{
+    padding: .5rem 2rem;
+    background-color: var(--light_black);
+    color: #fff;
+    font-size: 1.1rem;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    transition: .4s ease;
+}
+.btn:hover{
+    background-color: var(--color_yellow);
+    color: #000;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    margin-bottom: 1rem;
+
+}
+.heading::after{
+    content: "";
+    width: 10rem;
+    height: 2px;
+    background-color: var(--color_yellow);
+    position: absolute;
+    left: 45%;
+}
+.heading h1{
+    font-size: 2rem;
+    color: #000;
+    font-family: var(--heading_font);
+    font-weight: bold;
+}
+.heading p{
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+
+
+/* navbar */
+#main-header{
+    position: absolute !important;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--light_black) !important;
+    z-index: 234324;
+}
+.menu-item a{
+    color: #fff !important;
+    transition: 0.5s ease ;
+}
+.menu-item a:hover{
+    color: var(--color_yellow)  !important;
+}
+/* navbar */
+
+
+
+/* header  */
+.header, .header1, .header2{
+    width: 100%;
+    padding: 3rem 6rem;
+    height: 100vh;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding-top: 8rem;
+}
+.header{
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/04/h1-slide-3-background-img.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.header1{
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/04/h1-slide-1-background-img.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.header2{
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/04/h1-slide-2-background-img.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+.slider{
+    transform: translateY(-5rem);
+    background-attachment: fixed;
+    margin-bottom: -5rem;
+
+}
+.header_content{
+    padding: 1rem;
+    margin: auto;
+    flex-direction: column;
+    left: 0;
+    margin-left:0 ;
+}
+.header_content h1, .header_content h1 span{
+    font-family: var(--heading_font);
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 5rem;
+    color: #fff;
+}
+.header_content h1 span{
+    color: var(--color_yellow);
+}
+.header_content p{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+/* header  */
+
+
+
+/* items after header slider */
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.items .item{
+    overflow: hidden;
+}
+.items .item .data{
+cursor: pointer;
+transition: transform .5s ease;
+overflow: hidden;
+}
+.items .item .data:hover{
+transform: scale(1.05);
+}
+.items .item .data h2{
+    font-family: var(--heading_font);
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.item1{
+    background-color: gray;
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.item2{
+    background-color: gray;
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.item3{
+    background-color: gray;
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.item .data{
+    padding: 2rem;
+}
+.item1 .data{
+    background-color: #fbaf164b;
+}
+.item2 .data{
+    background-color: #16fb534b;
+}
+.item3 .data{
+    background-color: #2516fb4b;
+}
+/* items after header slider */
+
+
+/* about */
+.about{
+    padding: 4rem 4rem;
+}
+.about .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+.about .content .left p{
+    font-size: 1.1rem ;
+}
+.about .content .right img{
+    width: 145rem;
+    border-radius: 10px;
+}
+/* about */
+
+
+/* project */
+.projects{
+    padding: 2rem 4rem;
+}
+.projects .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 5rem 0;
+
+
+}
+.projects .content .item{
+    text-align: center;
+    padding: 1.5rem;
+    border: 1px solid var(--color_yellow);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+    cursor: pointer;
+    transition:  .5s ease;
+}
+.projects .content .item:hover{
+    background-color: var(--color_yellow);
+    color: #fff !important;
+    border: 1px solid var(--light_black);
+}
+.projects .content .item:hover.item h1{
+    color: #fff;
+}
+.projects .content .item img{
+    width: 5rem;
+}
+.projects .content .item h1{
+    font-size: 1.5rem;
+    font-family: var(--heading_font);
+    font-weight: 600;
+}
+.projects .content .item p{
+    font-size: 1.1rem;
+}
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 4rem;
+    background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-parallax-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.community .right{
+    width: 50%;
+}
+.community .right h1{
+    font-size: 2rem ;
+    font-family: var(--heading_font);
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.community .right p{
+    color: #fff;    
+    font-size: 1.1rem;
+    margin-bottom: 1rem !important;
+}
+.community .left iframe{
+    border: 6px solid var(--color_yellow);
+    border-radius: 10px;
+}
+/* project */
