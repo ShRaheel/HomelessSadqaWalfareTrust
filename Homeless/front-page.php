@@ -187,6 +187,59 @@ get_header();
 </div>
 <!-- projects -->
 
+
+
+<!-- posts -->
+<div class="our-posts">
+    <div class="heading">
+        <h1>Our Lates News</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, veritatis?</p>
+    </div>
+    <div class="content">
+        <div class="post-grid">
+            <?php
+            $args = array(
+              'post_type' => 'post',
+              'posts_per_page' => 3
+            );
+            $query = new WP_Query($args);
+          
+            if ($query->have_posts()) {
+              while ($query->have_posts()) {
+                $query->the_post();
+                ?>
+                <div class="post-item">
+                  <?php if (has_post_thumbnail()) { ?>
+                    <div class="post-thumbnail">
+                      <a href="<?php the_permalink(); ?>">
+                        <?php the_post_thumbnail('thumbnail'); ?>
+                      </a>
+                    </div>
+                  <?php } ?>
+                  <div class="post-content">
+                    <h3 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <p class="post-excerpt"><?php echo wp_trim_words(get_the_excerpt(), 30); ?></p>
+                    <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
+                  </div>
+                </div>
+                <?php
+              }
+            } else {
+              echo '<p>No posts found.</p>';
+            }
+          
+            wp_reset_postdata();
+            ?>
+          </div>
+          
+    </div>
+</div>
+<!-- posts -->
+
+
+
+
+
 <!-- progress -->
 <div class="progress-data">
 

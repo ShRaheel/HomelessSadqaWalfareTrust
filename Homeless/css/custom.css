@@ -65,10 +65,11 @@
     right: 0;
     width: 100%;
     background-color: var(--light_black) !important;
+    /* background: #fff; */
     z-index: 234324;
 }
 .menu-item a{
-    color: #fff !important;
+    color: #000 !important;
     transition: 0.5s ease ;
 }
 .menu-item a:hover{
@@ -293,7 +294,7 @@ transform: scale(1.05);
     border-radius: 10px;
 }
 .progress-data{
-    padding: 6rem 8rem;
+    padding: 4rem 8rem;
     background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-parallax-2.jpg);
     background-position: center center;
     background-size: cover;
@@ -316,6 +317,8 @@ transform: scale(1.05);
     color: #fff;
     font-family: var(--heading_font);
 }
-.my-progress .my-item h1{
-
+.my-progress .my-item p{
+    color: #fff;
+    font-size: 1.1rem;
+}
 /* project */
