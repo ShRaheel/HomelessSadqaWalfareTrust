@@ -57,7 +57,8 @@ get_header();
 <div class="about">
     <div class="heading">
         <h1>Who We Are</h1>
-        <p>Empowering the homeless and marginalized through compassion and action.</p>
+        <p>Empowering the homeless and marginalized through compassion and
+            action.</p>
     </div>
     <div class="content">
         <div class="left">
@@ -86,76 +87,129 @@ get_header();
             </p>
         </div>
         <div class="right">
-            <img src="https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-5.jpg" alt="img">
+            <img
+                src="https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-5.jpg"
+                alt="img">
         </div>
     </div>
 </div>
 <!-- about us section -->
 
-
 <!-- projects -->
 <div class="projects">
     <div class="heading">
         <h1>Our Top Projects</h1>
-        <p>Transforming lives through our impactful projects for the homeless and underprivileged.</p>
+        <p>Transforming lives through our impactful projects for the homeless
+            and underprivileged.</p>
     </div>
     <div class="content">
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/wedding-couple.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/wedding-couple.png"
+                alt>
             <h1>Marrige</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hand-pump.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hand-pump.png"
+                alt>
             <h1>Water Pump</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/vegetable.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/vegetable.png"
+                alt>
             <h1>Ration</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/clothes-hanger.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/clothes-hanger.png"
+                alt>
             <h1>Clothes</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/jacket.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/jacket.png"
+                alt>
             <h1>Winter Clothes</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hunger.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hunger.png"
+                alt>
             <h1>Hunger Poor</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/suitcase.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/suitcase.png"
+                alt>
             <h1>Rozgar</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
         <div class="item">
-            <img src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/information.png" alt="">
+            <img
+                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/information.png"
+                alt>
             <h1>Computer Center</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in need.</p>
+            <p>Enabling joyful beginnings by supporting marriages of those in
+                need.</p>
         </div>
     </div>
 
 </div>
 <div class="community">
     <div class="left">
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/14176808?h=553832afe4" width="640" height="320" frameborder="0"    allowfullscreen></iframe>
+        <iframe title="vimeo-player"
+            src="https://player.vimeo.com/video/14176808?h=553832afe4"
+            width="640" height="320" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="right">
         <h1>Fundraising Community</h1>
-        <p>Nulla fermentum turpis id nunc tincidunt, vitae hendrerit orci viverra. Nulla facilisi. Duis tempor nisl nec dolor malesuada viverra. Morbi id tempus nisi, a varius enim. Morbi eget augue neque, un in ligula.</p>
+        <p>Nulla fermentum turpis id nunc tincidunt, vitae hendrerit orci
+            viverra. Nulla facilisi. Duis tempor nisl nec dolor malesuada
+            viverra. Morbi id tempus nisi, a varius enim. Morbi eget augue
+            neque, un in ligula.</p>
         <a href="#" class="btn">Read More</a>
     </div>
 </div>
 <!-- projects -->
 
+<!-- progress -->
+<div class="progress-data">
 
+    <div class="my-progress">
+        <div class="my-item">
+            <h1>1259</h1>
+            <p>Donations</p>
+        </div>
+        <div class="my-item">
+            <h1>730</h1>
+            <p>Volunteers</p>
+        </div>
+        <div class="my-item">
+            <h1>827</h1>
+            <p>Projects</p>
+        </div>
+        <div class="my-item">
+            <h1>460</h1>
+            <p>Projects</p>
+        </div>
+    </div>
+</div>
+<!-- progress -->
 
 <script>
    $(document).ready(function() {
