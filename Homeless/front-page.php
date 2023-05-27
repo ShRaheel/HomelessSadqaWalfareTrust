@@ -88,7 +88,7 @@ get_header();
         </div>
         <div class="right">
             <img
-                src="https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-5.jpg"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/homeless-logo-22-01.png"
                 alt="img">
         </div>
     </div>
@@ -105,65 +105,65 @@ get_header();
     <div class="content">
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/wedding-couple.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/bibimbap.png"
                 alt>
-            <h1>Marrige</h1>
+            <h1>Coocked Food</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hand-pump.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/food-ration.png"
                 alt>
-            <h1>Water Pump</h1>
+            <h1>Ration Distribution</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/vegetable.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/eid-al-adha.png"
                 alt>
-            <h1>Ration</h1>
+            <h1>Qurbani Activities</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/clothes-hanger.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/water-pump.png"
                 alt>
-            <h1>Clothes</h1>
+            <h1>Water Handpump</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/jacket.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/water-well.png"
                 alt>
-            <h1>Winter Clothes</h1>
+            <h1>Water Wells in Thar</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/hunger.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/wedding.png"
                 alt>
-            <h1>Hunger Poor</h1>
+            <h1>Wedding</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/suitcase.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/camping-tent.png"
                 alt>
-            <h1>Rozgar</h1>
+            <h1>Medical Camps</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
         <div class="item">
             <img
-                src="http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/information.png"
+                src="https://homeless.codelab.pk/wp-content/uploads/2023/05/sewing.png"
                 alt>
-            <h1>Computer Center</h1>
+            <h1>Sewing Centers</h1>
             <p>Enabling joyful beginnings by supporting marriages of those in
                 need.</p>
         </div>
@@ -172,21 +172,67 @@ get_header();
 </div>
 <div class="community">
     <div class="left">
-        <iframe title="vimeo-player"
-            src="https://player.vimeo.com/video/14176808?h=553832afe4"
-            width="640" height="320" frameborder="0" allowfullscreen></iframe>
+        <img src="https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.27-PM-e1685182718225.jpeg" alt="">
     </div>
     <div class="right">
-        <h1>Fundraising Community</h1>
-        <p>Nulla fermentum turpis id nunc tincidunt, vitae hendrerit orci
-            viverra. Nulla facilisi. Duis tempor nisl nec dolor malesuada
-            viverra. Morbi id tempus nisi, a varius enim. Morbi eget augue
-            neque, un in ligula.</p>
+        <h1>Helping Disabled Childrens</h1>
+        <p>At Homeless Sadqa Welfare Trust, we are dedicated to bringing hope and support to disabled children across Pakistan. We firmly believe that every child, regardless of their abilities, deserves a chance to thrive, dream, and lead a fulfilling life. Through our comprehensive programs and unwavering commitment, we strive to empower these special children and make a positive impact in their lives.</p>
+        <p>We understand the importance of providing disabled children with safe and inclusive environments where they can learn, grow, and play without limitations. Our organization works tirelessly to ensure that schools, public spaces, and recreational facilities are accessible to children with disabilities.</p>
         <a href="#" class="btn">Read More</a>
     </div>
 </div>
 <!-- projects -->
 
+
+<!-- branches -->
+<div class="branches projects">
+    <div class="heading">
+        <h1>Our Branches</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, illo.</p>
+    </div>
+    <div class="content">
+        <div class="item">
+            <h1 style="padding-bottom:0;">Karachi</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Thatha</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Hyderabad</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Khairpur</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">UmerKot</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">NwabShah</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">ShikarPur</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Sukkur</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Dadu</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Larkana</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Noushehroferoze</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Nathan Shah</h1>
+        </div>
+        <div class="item">
+            <h1 style="padding-bottom:0;">Bahawalpur</h1>
+        </div>
+    </div>
+</div>
+<!-- branches -->
 <!-- posts -->
 <div class="our-posts">
     <div class="heading">

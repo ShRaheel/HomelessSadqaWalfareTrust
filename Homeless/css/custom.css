@@ -79,77 +79,56 @@
   color: #fff;
 }
 /* navbar */
-
-/* header  */
-.header,
-.header1,
-.header2 {
+.header{
   width: 100%;
-  padding: 3rem 6rem;
-  height: 100vh;
+  height: 110vh;
   display: flex;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-  padding-top: 8rem;
-}
-.header::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-image: url(http://localhost/wordpress/wordpress/wp-content/uploads/2023/05/1.jpg);
-  background-size: contain;
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.35-PM.jpeg);
+  background-size: cover;
   background-position: center center;
-  z-index: -2;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  /* position: relative; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
-.header1::after {
-  content: "";
-  position: absolute;
+.header1{
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.32-PM-2.jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/04/h1-slide-1-background-img.jpg);
-  background-size: contain;
-  background-position: center center;
-  z-index: -2;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  /* position: relative; */
-}
-.header2::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/04/h1-slide-2-background-img.jpg);
-  background-size: contain;
-  background-position: center center;
-  z-index: -2;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  /* position: relative; */
-}
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-.header::before,
-.header1::before,
-.header2::before {
-  content: "";
+}
+.header2{
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.31-PM.jpeg );
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #00000022;
-  z-index: -1;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.header_content{
+  height: 110vh;
+  padding-top: 10rem;
+  display: flex;
+  align-items: left; 
+  justify-content: center; 
+  background-color: #0000006d;
+  text-align: left;
+  padding-left: 10rem !important;
+}
+.btn{
+  width: 10rem;
 }
 .slider {
   transform: translateY(-5rem);
@@ -209,19 +188,19 @@
 }
 .item1 {
   background-color: gray;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-1.jpg);
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.30-PM.jpeg);
   background-size: cover;
   background-position: center center;
 }
 .item2 {
   background-color: gray;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-2.jpg);
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.29-PM.jpeg);
   background-size: cover;
   background-position: center center;
 }
 .item3 {
   background-color: gray;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-img-3.jpg);
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.29-PM-1.jpeg);
   background-size: cover;
   background-position: center center;
 }
@@ -254,8 +233,8 @@
   font-size: 1.1rem;
 }
 .about .content .right img {
-  width: 145rem;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 10px !important;
 }
 /* about */
 
@@ -308,7 +287,20 @@
   justify-content: space-between;
   gap: 4rem;
   padding: 4rem;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-parallax-1.jpg);
+  background: #00000075;
+  position: relative;
+}
+.community::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.02.56-PM.jpeg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -333,10 +325,21 @@
 }
 .progress-data {
   padding: 4rem 8rem;
-  background-image: url(https://goodwish.qodeinteractive.com/elementor/wp-content/uploads/2017/03/h1-parallax-2.jpg);
+  background-color: rgba(0, 0, 0, 0.443);
+  position: relative;
+}
+.progress-data::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.02.55-PM.jpeg);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  z-index: -1;
 }
 .my-progress {
   display: flex;
@@ -461,4 +464,56 @@
   height: 12rem;
   border-radius: 10px;
   cursor: pointer;
+}
+
+
+.branches .content{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+.main{
+  height: 50vh;
+}
+.hover-effect1 {
+  min-height: 20px;
+  background: #F44336;
+  text-align: center;
+}
+.hover-effect1 ul {
+ padding-top: 1px;
+}
+.hover-effect1 ul li {
+ display: inline-block;
+}
+.hover-effect1 ul li a {
+ font-size: 30px;
+ text-align: center;
+ color: #fff;
+ margin: 0px 10px;
+ line-height: 50px;
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ background:#dc3545;
+ -webkit-transition: all .6s ease;
+ -moz-transition: all .6s ease;
+ -ms-transition: all .6s ease;
+ -o-transition: all .6s ease;
+ transition: all .6s ease;
+}
+.hover-effect1 ul li:hover a {
+  border-radius: 50%;
+  background: #dc3545;
+ -moz-transform: rotate(360deg);
+ -webkit-transform: rotate(360deg);
+ -o-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ transform: rotate(360deg);
 }
