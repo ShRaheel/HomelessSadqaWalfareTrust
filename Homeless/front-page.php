@@ -108,64 +108,56 @@ get_header();
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/bibimbap.png"
                 alt>
             <h1>Coocked Food</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Serving hot and nourishing meals to those in need, ensuring no one goes to bed hungry.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/food-ration.png"
                 alt>
             <h1>Ration Distribution</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p> Providing essential food supplies and provisions to families in need, ensuring their sustenance and well-being.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/eid-al-adha.png"
                 alt>
             <h1>Qurbani Activities</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Conducting Qurbani activities to share sacrificial meat and bring joy to disadvantaged communities during Eid.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/water-pump.png"
                 alt>
             <h1>Water Handpump</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Installing handpumps to provide clean and accessible water sources for communities in need.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/water-well.png"
                 alt>
             <h1>Water Wells in Thar</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Digging water wells in Thar region to provide sustainable access to clean water for the local community.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/wedding.png"
                 alt>
             <h1>Wedding</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Creating memorable and joyous wedding experiences for deserving couples, spreading happiness and unity.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/camping-tent.png"
                 alt>
             <h1>Medical Camps</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Conducting medical camps to provide essential healthcare services and medical assistance to underserved communities.</p>
         </div>
         <div class="item">
             <img
                 src="https://homeless.codelab.pk/wp-content/uploads/2023/05/sewing.png"
                 alt>
             <h1>Sewing Centers</h1>
-            <p>Enabling joyful beginnings by supporting marriages of those in
-                need.</p>
+            <p>Establishing sewing centers to impart vocational skills and create sustainable livelihood opportunities for individuals in need.</p>
         </div>
     </div>
 
