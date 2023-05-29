@@ -41,7 +41,7 @@ get_header();
                 <strong>
                     Phone:
                 </strong>
-                <p>0300-1234567</p>
+                <p>03312329276 <br> 03028221165</p>
             </div>
             <div class="dtl">
                 <strong>

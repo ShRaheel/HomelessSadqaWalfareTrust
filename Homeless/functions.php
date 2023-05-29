@@ -8868,8 +8868,8 @@ function send_form_data() {
         $response = array('success' => true, 'message' => 'Message has been sent');
     } else {
         // Return an error response
-        $error_message = error_get_last()['message'];
-        $response = array('success' => false, 'message' => 'Failed to send message. Error: ' . $error_message);
+        // $error_message = error_get_last()['message'];
+        $response = array('success' => false, 'message' => 'Failed to send message.');
     }
 
     // Convert the response to JSON and send it
