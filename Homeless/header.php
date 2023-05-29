@@ -250,28 +250,28 @@
 	<?php ob_start(); ?>
 		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
 			<div class="container clearfix et_menu_container">
-			<?php
-				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )
-					? $user_logo
-					: $template_directory_uri . '/images/logo.png';
+				<?php
+					$logo = wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' );
 
-				// Get logo image size based on attachment URL.
-				$logo_size   = et_get_attachment_size_by_url( $logo );
-				$logo_width  = ( ! empty( $logo_size ) && is_numeric( $logo_size[0] ) )
-						? $logo_size[0]
-						: '93'; // 93 is the width of the default logo.
-				$logo_height = ( ! empty( $logo_size ) && is_numeric( $logo_size[1] ) )
-						? $logo_size[1]
-						: '43'; // 43 is the height of the default logo.
+		if ( $logo ) {
+			$logo_url    = $logo[0];
+			$logo_width  = $logo[1];
+			$logo_height = $logo[2];
+		} else {
+			$logo_url    = $template_directory_uri . '/images/logo.png';
+			$logo_width  = 93; // Replace with your default logo width
+			$logo_height = 43; // Replace with your default logo height
+		}
 
-				ob_start();
-			?>
-				<div class="logo_container">
-					<span class="logo_helper"></span>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img src="<?php echo esc_attr( $logo ); ?>" width="<?php echo esc_attr( $logo_width ); ?>" height="<?php echo esc_attr( $logo_height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
-					</a>
-				</div>
+		ob_start();
+		?>
+		<div class="logo_container">
+			<span class="logo_helper"></span>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+				<img src="<?php echo esc_attr( $logo_url ); ?>" width="<?php echo esc_attr( $logo_width ); ?>" height="<?php echo esc_attr( $logo_height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
+			</a>
+		</div>
+
 			<?php
 				$logo_container = ob_get_clean();
 

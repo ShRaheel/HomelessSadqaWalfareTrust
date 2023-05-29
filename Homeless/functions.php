@@ -8864,10 +8864,8 @@ function send_form_data() {
     $sent = wp_mail($to, $subject, $body, $headers);
 
     if ($sent) {
-        // Return a success response
         $response = array('success' => true, 'message' => 'Message has been sent');
     } else {
-        // Return an error response
         // $error_message = error_get_last()['message'];
         $response = array('success' => false, 'message' => 'Failed to send message.');
     }
@@ -8881,3 +8879,15 @@ function send_form_data() {
 
 add_action('wp_ajax_send_data_handler', 'send_form_data');
 add_action('wp_ajax_nopriv_send_data_handler', 'send_form_data');
+
+
+function custom_theme_setup() {
+    add_theme_support( 'custom-logo', array(
+        'height'      => 100, // Replace with your desired logo height
+        'width'       => 400, // Replace with your desired logo width
+        'flex-height' => true,
+        'flex-width'  => true,
+        'header-text' => array( 'site-title', 'site-description' ),
+    ) );
+}
+add_action( 'after_setup_theme', 'custom_theme_setup' );
