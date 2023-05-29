@@ -303,8 +303,7 @@ get_header();
 <div class="my-gallery">
     <div class="heading">
         <h1>Our Image Gallery</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
-            quis?</p>
+        <p>Capturing moments of hope, resilience, and community in our journey</p>
     </div>
     <div class="gallery-data">
         <div class="gallery">

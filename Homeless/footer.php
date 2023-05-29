@@ -24,16 +24,16 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 			<div class="items">
 				<div class="item">
 					<h1>About Company</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora accusantium labore sit suscipit, vero dolore amet voluptate doloremque aspernatur corporis maxime. Fuga, officia, vero distinctio, odit doloremque tempora harum corrupti natus ea veniam odio praesentium?</p>
+					<p>Homeless Sadqa Welfare Trust is a registered nonprofit organization dedicated to tackling homelessness and providing support to those in need. Our mission is to alleviate the hardships faced by homeless individuals and families and empower them towards a brighter future.</p>
 				</div>
 				<div class="item">
 					<h1>Links</h1>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Branches</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="<?php echo home_url();?>">Home</a></li>
+						<li><a href="<?php echo home_url();?>/about-us">About</a></li>
+						<li><a href="<?php echo home_url();?>/projects">Projects</a></li>
+						<li><a href="<?php echo home_url();?>/branches">Branches</a></li>
+						<li><a href="<?php echo home_url();?>/contact">Contact</a></li>
 					</ul>
 				</div>
 				<div class="item">
