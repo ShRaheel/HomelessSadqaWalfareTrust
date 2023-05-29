@@ -8844,3 +8844,40 @@ function create_gallery_post_type() {
     );
 }
 add_action( 'init', 'create_gallery_post_type' );
+function send_form_data() {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Compose the email message
+    $to = 'jabbar@codelab.pk'; // Replace with the recipient's email address
+    $subject = 'Form Submission';
+    $body = "Name: $name\n\nEmail: $email\n\nMessage: $message";
+
+    // Set additional headers
+    $headers = array(
+        'Content-Type: text/plain; charset=UTF-8',
+        'From: Your Name <jabbar.azam@codelab.pk>', // Replace with your name and email address
+    );
+
+    // Send the email
+    $sent = wp_mail($to, $subject, $body, $headers);
+
+    if ($sent) {
+        // Return a success response
+        $response = array('success' => true, 'message' => 'Message has been sent');
+    } else {
+        // Return an error response
+        $error_message = error_get_last()['message'];
+        $response = array('success' => false, 'message' => 'Failed to send message. Error: ' . $error_message);
+    }
+
+    // Convert the response to JSON and send it
+    wp_send_json($response);
+
+    // Terminate the script
+    wp_die();
+}
+
+add_action('wp_ajax_send_data_handler', 'send_form_data');
+add_action('wp_ajax_nopriv_send_data_handler', 'send_form_data');

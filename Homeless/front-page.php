@@ -36,19 +36,19 @@ get_header();
     <div class="item item1">
         <div class="data">
             <h2>Today is the day to reach out and lend a helping hand</h2>
-            <a href="#" class="btn">Donate</a>
+            <a href="#" class="btn">View More</a>
         </div>
     </div>
     <div class="item item2">
         <div class="data">
             <h2>Even the smallest of donations can help change a life</h2>
-            <a href="#" class="btn">Donate</a>
+            <a href="#" class="btn">View More</a>
         </div>
     </div>
     <div class="item item3">
         <div class="data">
             <h2>Become a volunteer. You’ll feel the benefits instantly</h2>
-            <a href="#" class="btn">Donate</a>
+            <a href="#" class="btn">View More</a>
         </div>
     </div>
 </div>

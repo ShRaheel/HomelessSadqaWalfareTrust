@@ -44,7 +44,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					</div>
 					<div class="dtl">
 						<strong>Phone</strong>
-						<p>1234567</p>
+						<p>03312329276 <br> 03028221165</p>
 					</div>
 					<div class="dtl">
 						<strong>Address</strong>
@@ -65,5 +65,6 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 	
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/myjs.js"></script>
 </body>
 </html>

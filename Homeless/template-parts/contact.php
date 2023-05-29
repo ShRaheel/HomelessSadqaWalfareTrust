@@ -13,7 +13,7 @@ get_header();
 
     <div class="contact-form">
         <div class="left">
-            <form action="#" type="post">
+            <form action="#" type="POST">
                 <div class="input-field">
                     <label for="name">Name:</label>
                     <input required type="text" name="name" id="name" >
@@ -26,7 +26,7 @@ get_header();
                     <label for="message">Your Message:</label>
                     <textarea required name="message" id="message" ></textarea>
                 </div>
-                <button id="submitBtn" data-url="<?php echo admin_url();?>" type="submit" name="submit" value="submit" class="btn">Submit</button>
+                <button id="submitBtn" data-url="<?php echo admin_url('admin-ajax.php');?>" type="submit" name="submit" value="submit" class="btn">Submit</button>
             </form>
         </div>
         <div class="right">
