@@ -40,7 +40,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					<h1>Contact Details</h1>
 					<div class="dtl">
 						<strong>Email</strong>
-						<p>email@compan.com</p>
+						<p>Shakeelsheikhefu@gmail.com</p>
 					</div>
 					<div class="dtl">
 						<strong>Phone</strong>
@@ -48,7 +48,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					</div>
 					<div class="dtl">
 						<strong>Address</strong>
-						<p>Office Address</p>
+						<p>Sunny Terrace Gulistan e Johar Karachi Sindh Pakistan</p>
 					</div>
 				</div>
 			</div>

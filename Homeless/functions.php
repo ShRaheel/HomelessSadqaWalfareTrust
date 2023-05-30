@@ -8850,14 +8850,14 @@ function send_form_data() {
     $message = $_POST['message'];
 
     // Compose the email message
-    $to = 'jabbar@codelab.pk'; // Replace with the recipient's email address
+    $to = 'Shakeelsheikhefu@gmail.com'; 
     $subject = 'Form Submission';
     $body = "Name: $name\n\nEmail: $email\n\nMessage: $message";
 
     // Set additional headers
     $headers = array(
         'Content-Type: text/plain; charset=UTF-8',
-        'From: Your Name <jabbar.azam@codelab.pk>', // Replace with your name and email address
+        'From: Homeless Sadqa Walfare Trust <Shakeelsheikhefu@gmail.com>', 
     );
 
     // Send the email

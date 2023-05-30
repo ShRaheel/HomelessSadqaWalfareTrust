@@ -35,7 +35,7 @@ get_header();
                 <strong>
                     Email:
                 </strong>
-                <p>email@company.com</p>
+                <p>Shakeelsheikhefu@gmail.com</p>
             </div>
             <div class="dtl">
                 <strong>
@@ -47,7 +47,7 @@ get_header();
                 <strong>
                     Address:
                 </strong>
-                <p>Company Address Here</p>
+                <p>Sunny Terrace Gulistan e Johar Karachi Sindh Pakistan</p>
             </div>
         </div>
     </div>

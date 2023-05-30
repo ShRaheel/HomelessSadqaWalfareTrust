@@ -5,28 +5,22 @@ get_header();
 <div class="slider">
     <div class="header">
         <div class="header_content">
-            <h1>Stand Up For <br> <span>The Deprived</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                Aut quas id voluptates beatae a laboriosam? Lorem ipsum dolor
-                <br> sit amet consectetur adipisicing elit. Corrupti, repellat.</p>
+            <h1>Empowering Lives, <br> Creating <span>   Hope</span></h1>
+            <p>Committed to Breaking the Cycle of Homelessness, Providing Shelter, <br> Support, and Empowering Lives for a Brighter Tomorrow</p>
             <a href="#" class="btn">View More</a>
         </div>
     </div>
     <div class="header1">
         <div class="header_content">
-            <h1>Help The <br><span>Children</span> in Need</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                Aut quas id voluptates beatae a laboriosam? Lorem ipsum dolor
-                <br> sit amet consectetur adipisicing elit. Corrupti, repellat.</p>
+			<h1>Fighting <span>Hunger</span>, Uplifting<br> the <span> Vulnerable </span></h1>
+            <p>Combating Food Insecurity and Poverty, Nourishing Lives <br> and Bringing Hope to the Less Fortunate.</p>
             <a href="#" class="btn">View More</a>
         </div>
     </div>
     <div class="header2">
         <div class="header_content">
-            <h1>Fight For <br>Right <span>Causes</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                Aut quas id voluptates beatae a laboriosam? Lorem ipsum dolor
-                <br> sit amet consectetur adipisicing elit. Corrupti, repellat.</p>
+            <h1>Empathy in Action,<br> Changing  <span>Lives</span></h1>
+            <p>Embracing Compassion and Empathy, We Work Tirelessly to Alleviate <br> Suffering and Bring Positive Change to Impoverished Communities</p>
             <a href="#" class="btn">View More</a>
         </div>
     </div>
@@ -280,21 +274,18 @@ get_header();
 
     <div class="my-progress">
         <div class="my-item">
-            <h1>1259</h1>
+            <h1>150,000</h1>
             <p>Donations</p>
         </div>
         <div class="my-item">
-            <h1>730</h1>
+            <h1>200</h1>
             <p>Volunteers</p>
         </div>
         <div class="my-item">
-            <h1>827</h1>
+            <h1>50</h1>
             <p>Projects</p>
         </div>
-        <div class="my-item">
-            <h1>460</h1>
-            <p>Projects</p>
-        </div>
+       
     </div>
 </div>
 <!-- progress -->
@@ -310,7 +301,7 @@ get_header();
             <?php
             $args = array(
             'post_type' => 'gallery',
-            'posts_per_page' => -1 // Retrieve all gallery posts
+            'posts_per_page' => 8
             );
             $gallery_query = new WP_Query($args);
 
@@ -334,6 +325,7 @@ get_header();
             echo '<p>No gallery images found.</p>';
             endif;
             ?>
+			<a href="<?php echo home_url()?>/gallery" class="btn2" style="text-align:center;">View More</a>
         </div>
 
     </div>

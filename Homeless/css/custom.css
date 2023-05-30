@@ -85,16 +85,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.35-PM.jpeg);
+  background-image: url(http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-30-at-4.23.24-PM.jpeg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 .header1{
-  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.32-PM-2.jpeg);
+  background-image: url(http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-30-at-4.23.36-PM.jpeg);
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   width: 100%;
@@ -105,7 +105,7 @@
 
 }
 .header2{
-  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.31-PM.jpeg );
+  background-image: url(http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-30-at-4.24.26-PM.jpeg );
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -203,7 +203,7 @@
 }
 .item3 {
   background-color: gray;
-  background-image: url(https://homeless.codelab.pk/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-26-at-5.03.29-PM-1.jpeg);
+  background-image: url(http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-30-at-3.27.26-PM.jpeg);
   background-size: cover;
   background-position: center center;
 }
@@ -211,13 +211,13 @@
   padding: 2rem;
 }
 .item1 .data {
-  background-color: #fbaf164b;
+  background-color: #fbaf1640;
 }
 .item2 .data {
-  background-color: #16fb534b;
+  background-color: #16fb5336;
 }
 .item3 .data {
-  background-color: #2516fb4b;
+  background-color: #2516fb30;
 }
 /* items after header slider */
 
@@ -395,7 +395,7 @@
 
 .post-thumbnail img {
   width: 100%;
-  height: auto;
+  height: 15rem;
   object-fit: cover;
   border-radius: 10px;
 }
