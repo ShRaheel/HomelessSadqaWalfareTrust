@@ -325,7 +325,7 @@ get_header();
             echo '<p>No gallery images found.</p>';
             endif;
             ?>
-			<a href="<?php echo home_url()?>/gallery" class="btn2" style="text-align:center;">View More</a>
+			<a href="<?php echo home_url()?>/our-gallery" class="btn2" style="text-align:center;">View More</a>
         </div>
 
     </div>
