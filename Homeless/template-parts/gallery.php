@@ -1,5 +1,5 @@
 <?php 
-// Template Name: gallery
+// Template Name: our-gallery
 get_header();
 ?>
 
