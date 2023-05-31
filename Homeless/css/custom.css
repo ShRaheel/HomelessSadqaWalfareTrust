@@ -87,7 +87,7 @@
   justify-content: center;
   background-image: url(http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-30-at-4.23.24-PM.jpeg);
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -649,7 +649,22 @@ footer .items .item .dtl{
   font-size: 1.1rem;
   padding: 10px !important;
 }
-
+.achievments{
+  padding: 4rem;
+}
+.achievments .post-slider{
+  margin-top: 4rem;
+}
+.achievments .post-slider .slide{
+  margin: 0 1rem;
+  overflow: hidden !important;
+  border-radius: 10px;
+  height: 25rem;
+}
+.achievments .post-slider .slide img{
+  height: 25rem;
+  width: 100%;
+}
 
 
 

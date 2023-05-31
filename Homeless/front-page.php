@@ -174,7 +174,7 @@ get_header();
 <div class="branches projects">
     <div class="heading">
         <h1>Our Branches</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, illo.</p>
+        <p>Our Branches all around pakistan</p>
     </div>
     <div class="content">
         <div class="item">
@@ -223,8 +223,7 @@ get_header();
 <div class="our-posts">
     <div class="heading">
         <h1>Our Latest News</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-            veritatis?</p>
+        <p>Stay Upto dated with out latest news</p>
     </div>
     <div class="my-content">
         <div class="posts">
@@ -268,6 +267,33 @@ get_header();
     </div>
 </div>
 <!-- posts -->
+
+<div class="achievments">
+    <div class="heading">
+        <h1>Our Achievments</h1>
+        <p>View Our Achievments</p>
+    </div>
+    <div class="post-slider">
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.23-PM.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.23-PM-1.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.22-PM-e1685535782270.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.24-PM-e1685535760983.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.24-PM-2.jpeg" alt="">
+        </div>
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.24-PM-1-e1685535895500.jpeg" alt="">
+        </div>
+    </div>
+</div>
 
 <!-- progress -->
 <div class="progress-data">
