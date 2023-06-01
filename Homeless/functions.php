@@ -8850,7 +8850,7 @@ function send_form_data() {
     $message = $_POST['message'];
 
     // Compose the email message
-    $to = 'Shakeelsheikhefu@gmail.com'; 
+    $to = 'jabbar.azam@gmail.com'; 
     $subject = 'Form Submission';
     $body = "Name: $name\n\nEmail: $email\n\nMessage: $message";
 

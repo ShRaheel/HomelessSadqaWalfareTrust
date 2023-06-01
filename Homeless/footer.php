@@ -48,7 +48,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					</div>
 					<div class="dtl">
 						<strong>Address</strong>
-						<p>Sunny Terrace Gulistan e Johar Karachi Sindh Pakistan</p>
+						<p>Karachi, Pakistan</p>
 					</div>
 				</div>
 			</div>

@@ -292,6 +292,19 @@ get_header();
         <div class="slide">
             <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-12.59.24-PM-1-e1685535895500.jpeg" alt="">
         </div>
+        <!--  -->
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-01-at-11.27.41-AM-e1685601360289.jpeg" alt="">
+        </div>
+        <!--  -->
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-01-at-11.27.42-AM.jpeg" alt="">
+        </div>
+        <!--  -->
+        <div class="slide">
+            <img src="http://homelesssadqawelfaretrust.com/wp-content/uploads/2023/06/WhatsApp-Image-2023-06-01-at-11.27.40-AM-e1685601396155.jpeg" alt="">
+        </div>
+        
     </div>
 </div>
 

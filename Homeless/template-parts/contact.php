@@ -47,7 +47,7 @@ get_header();
                 <strong>
                     Address:
                 </strong>
-                <p>Sunny Terrace Gulistan e Johar Karachi Sindh Pakistan</p>
+                <p>Karachi, Pakistan</p>
             </div>
         </div>
     </div>
